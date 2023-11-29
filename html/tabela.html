@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Salarial - Modelo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid rgba(204, 204, 204, 0.562);
+        }
+
+        th {
+            background-color: #f0f0f0;
+            color: #333;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #fff;
+        }
+
+        tr:hover {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <ol> 
+        <li><a href="#link">Texto</a></li>
+        <li><a href="#Seclista">Listas</a></li>
+        <li><a href="#Sectabela">Tabelas</a></li>
+    </ol>
+
+    <h1 id="Secmanual">Manual HTML</h1>
+    <h2>Texto</h2>
+    <p>X<sup>2</sup>-4.a.c</p>
+    <p>H<sub>2</sub>O</p>
+    <p><strong>strong</strong></p>
+    <p><em>em</em></p>
+    <p><del>del</del></p>
+    <p><ins>ins</ins></p>
+
+    <h2 id="Seclista">Listas</h2>
+    <h3>Listas não ordenadas</h3>
+    <ul>
+        <li>HTML</li>
+        <li>Linguagem</li>
+        <li>Marcação</li>
+    </ul>
+    <h3>Listas ordenadas</h3>
+    <ol>
+        <li>HTML</li>
+        <li>Linguagem</li>
+        <li>Marcação</li>
+    </ol>
+    <h3>Listas de definição</h3>
+    <dl>
+        <dt>HTML</dt>
+        <dd>É uma linguagem de marcação!</dd>
+    </dl>
+
+    <h2 id="Sectabela">Tabelas</h2>
+    <table border="1">
+        <tr>
+            <th>Aluno</th>
+            <th>Nota</th>
+        </tr>
+        <tr>
+            <td>Almir</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>Bernadete</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Zuila</td>
+            <td>75</td>
+        </tr>
+    </table>
+
+    <h3>Exemplo células mescladas</h3>
+    <h4>Mesclando linhas</h4>
+
+    <h2>Tabela Salarial - Modelo</h2>
+    <table border="1">
+        <tr>
+            <th colspan="7">TABELA SALARIAL - MODELO</th>
+        </tr>
+        <tr>
+            <th rowspan="2">Classe</th>
+            <th rowspan="2">Admissão</th>
+            <th colspan="5">Faixas Salariais</th>
+        </tr>
+        <tr>
+            <th>1ª Faixa (1 ano)</th>
+            <th>2ª Faixa (2 anos)</th>
+            <th>3ª Faixa (3 anos)</th>
+            <th>4ª Faixa (4 anos)</th>
+            <th>5ª Faixa (5 anos)</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>749</td>
+            <td>$802</td>
+            <td>$858</td>
+            <td>$918</td>
+            <td>$982</td>
+            <td>$1,051</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>802</td>
+            <td>$858</td>
+            <td>$918</td>
+            <td>$982</td>
+            <td>$1,051</td>
+            <td>$1,124</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>879</td>
+            <td>$941</td>
+            <td>$1,007</td>
+            <td>$1,077</td>
+            <td>$1,152</td>
+            <td>$1,223</td>
+        </tr>
+    </table>
+
+    <h2 id="link">LINK</h2>
+    <fieldset><a href="http://www.google.com">Google</a> clique aqui para ser redirecionado ao site</fieldset>
+    <fieldset><a href="../html/tabela.html">Tabela Salarial</a></fieldset>
+</body>
+</html>
