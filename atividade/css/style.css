@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #007bff; /* Alterado para azul */
+    color: white; /* Cor do texto para melhor visibilidade no fundo azul */
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form p {
+    margin-bottom: 10px;
+}
+
+
+form p {
+    margin-bottom: 10px;
+    color: black; /* Mudando a cor do texto para preto */
+}
+
+
+
+
+input[type="text"],
+input[type="password"],
+input[type="submit"],
+input[type="reset"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+input[type="submit"],
+input[type="reset"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #0056b3;
+}
