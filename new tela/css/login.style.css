@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../imagens/tela\ academia.jpg'); /* Caminho para a imagem na pasta "imagens" */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.login-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.7); /* Cor de fundo com transparência */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 150px;
+}
+
+
+input[type="text"],
+input[type="password"],
+input[type="submit"],
+input[type="button"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"],
+input[type="button"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background-color: #0056b3;
+}

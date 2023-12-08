@@ -1,0 +1,30 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.imagem-container {
+  text-align: center;
+}
+
+.imagem {
+  width: 50%;
+  height: auto;
+  max-width: 200px;
+}
+
+.imagem-container p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}
+

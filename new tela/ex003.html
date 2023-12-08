@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="nike-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/login.style.css">
+    <title>Just do It</title>
+</head>
+<body>
+    <div id="login" class="login-container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Nome de usuário" required><br>
+            <input type="password" id="password" placeholder="Senha" required><br>
+            <input type="submit" value="Entrar">
+            <input type="button" value="Limpar" onclick="limparCampos()">
+        </form>
+        <p>Não tem uma conta? <a href="#" onclick="exibirCadastro()">Cadastre-se</a></p>
+    </div>
+
+    <div id="cadastro" class="login-container" style="display: none;">
+        <h2>Cadastro</h2>
+        <form id="cadastroForm" onsubmit="cadastrarUsuario(event)">
+            <input type="text" id="newUsername" name="newUsername" placeholder="Novo nome de usuário" required><br>
+            <input type="password" id="newPassword" name="newPassword" placeholder="Nova senha" required><br>
+            <input type="text" id="newTelefone" name="newTelefone" placeholder="telefone">
+            <input type="submit" value="Cadastrar">
+            <input type="button" value="Cancelar" onclick="fecharCadastro()">
+            <input type="button" value="Limpar" onclick="limparCampos()">
+        </form>
+    </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
